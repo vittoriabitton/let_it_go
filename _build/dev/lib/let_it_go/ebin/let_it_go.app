@@ -1,0 +1,10 @@
+{application,let_it_go,
+             [{applications,[kernel,stdlib,elixir,logger,elsa]},
+              {description,"let_it_go"},
+              {modules,['Elixir.LetItGo','Elixir.LetItGo.Application',
+                        'Elixir.LetItGo.KafkaWriter',
+                        'Elixir.LetItGo.MessageHandler',
+                        'Elixir.LetItGo.TopicCreator']},
+              {registered,[]},
+              {vsn,"1.0.0-rc.1"},
+              {mod,{'Elixir.LetItGo.Application',[]}}]}.
